@@ -1,0 +1,12 @@
+(module BREAKOUT_HOLE_PATTERN (layer F.Cu) (tedit 586D6209)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BREAKOUT_HOLE_PATTERN (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 3 3) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 20 3) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 3 60.5) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 20 60.5) (size 4 4) (drill 3.2) (layers *.Cu *.Mask))
+)
