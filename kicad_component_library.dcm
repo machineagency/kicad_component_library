@@ -3,11 +3,17 @@ EESchema-DOCLIB  Version 2.0
 $CMP 2pos_terminal_block
 D 2-position terminal block
 K screw terminal block
-F http://www.on-shore.com/wp-content/uploads/2015/09/ostvnxxa150.pdf
+F https://www.on-shore.com/wp-content/uploads/OSTVNXXA150.pdf
 $ENDCMP
 #
 $CMP 37206-62A3-003PL
 F https://multimedia.3m.com/mws/media/277250O/3mtm-mini-clamp-socket-boardmount-straight-ts2093.pdf
+$ENDCMP
+#
+$CMP 3pos_terminal_block
+D 2-position terminal block
+K screw terminal block
+F https://www.on-shore.com/wp-content/uploads/OSTVNXXA150.pdf
 $ENDCMP
 #
 $CMP ADR4550
@@ -100,6 +106,12 @@ $CMP LTC4316
 D I2C Bus Address Translator
 K I2C Bus Address Translator
 F http://cds.linear.com/docs/en/datasheet/4316fa.pdf
+$ENDCMP
+#
+$CMP MCP4725
+D 12-bit D to A
+K i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
 $ENDCMP
 #
 $CMP MCP6004
